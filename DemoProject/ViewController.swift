@@ -7,12 +7,17 @@
 //
 
 import UIKit
-
+import Alamofire
 protocol myCustomeDelegate {
     func selectedHobbie(arrHobbie: NSMutableArray)
 }
 
 class ViewController1: UIViewController, myCustomeDelegate {
+    
+    
+    
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,11 +41,11 @@ class ViewController1: UIViewController, myCustomeDelegate {
         print("")
     }
     
-    func nextController() {
+   /* func nextController() {
         let vc2 = kMainStoryBoard.instantiateViewController(withIdentifier: "ViewController2") as! ViewController2
         vc2.delegate = self
         self.navigationController?.pushViewController(vc2, animated: true)
-    }
+    }*/
     
     func selectedHobbie(arrHobbie: NSMutableArray) {
         print(arrHobbie)
@@ -54,6 +59,10 @@ class ViewController2: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "") as! ViewController3
+        vc.completeReturnBlock = { (data)  in
+            print(data)
+        }
         // Do any additional setup after loading the view, typically from a nib.
     }
     
@@ -75,6 +84,7 @@ class ViewController2: UIViewController {
 }
 class ViewController3: UIViewController {
     
+    var completeReturnBlock: ((String) -> ())?
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -85,6 +95,13 @@ class ViewController3: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func returndata()
+    {
+        if completeReturnBlock != nil
+        {
+            completeReturnBlock!("Hello")
+        }
+    }
     func nextController() {
         let vc2 = kMainStoryBoard.instantiateViewController(withIdentifier: "ViewController2") as! ViewController2
         self.navigationController?.pushViewController(vc2, animated: true)
@@ -95,3 +112,46 @@ class ViewController3: UIViewController {
     }
     
 }
+
+
+
+class myApiCalling:NSObject
+{
+    class func apiCalling(url:String,Parameter:NSMutableDictionary,isProgress:Bool = true, success:@escaping (NSDictionary) -> (), error:@escaping (String) -> ())
+    {
+        let header = ["Content-Type":"Application/json"]
+        Utility.showProgress("")
+        var request = URLRequest(url: URL(string: "")!)
+        request.httpMethod = "POST"
+        request.httpBody = try? JSONSerialization.data(withJSONObject: Parameter)
+        request.allHTTPHeaderFields = header
+        
+        Alamofire.request(request).responseJSON { (response) in
+            
+            if let data = response.result.value as? NSDictionary
+            {
+                success(data)
+            }
+            else if(response.error != nil)
+            {
+                myApiCalling.showAlert(message: "gfgf", title: "fdfd")
+            }
+        }
+        
+    
+        
+    }
+    
+    class func showAlert(message:String,title:String,action: [UIAlertAction] = [UIAlertAction(title: "ok", style: .cancel, handler: nil)])
+    {
+        var alert = UIAlertController(title: "", message: "", preferredStyle: UIAlertControllerStyle.alert)
+        for actions in action
+        {
+            alert.addAction(actions)
+        }
+        
+        let vc = UIApplication.shared.delegate?.window!?.rootViewController as! UINavigationController
+        vc.present(alert, animated: true, completion: nil)
+    }
+}
+

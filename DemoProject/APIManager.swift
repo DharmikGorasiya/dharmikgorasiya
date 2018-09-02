@@ -50,6 +50,7 @@ class APIManager: NSObject {
         
         let headers = [ "Content-Type": "application/json" ]
         var request =  URLRequest(url: URL(string: url)!)
+        
         request.httpMethod = "POST"
         request.httpBody = try? JSONSerialization.data(withJSONObject: parameters)
         request.allHTTPHeaderFields = headers

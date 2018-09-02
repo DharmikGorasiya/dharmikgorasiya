@@ -483,9 +483,6 @@ class Utility {
                 let nav =  UIApplication.shared.delegate?.window!?.rootViewController as? UINavigationController
                 nav?.present(alert, animated: true, completion: nil)
             }
-            
-            
-            
         }
     }
     
