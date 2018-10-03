@@ -17,6 +17,21 @@
 		4FAF7DC821282C2600D71730 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAF7DC721282C2600D71730 /* APIManager.swift */; };
 		4FC980F421648C18005BBD15 /* SQLLite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC980F321648C18005BBD15 /* SQLLite.swift */; };
 		4FC980F621648D24005BBD15 /* coreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC980F521648D24005BBD15 /* coreData.swift */; };
+		4FC980F821649C00005BBD15 /* INAPPPurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC980F721649C00005BBD15 /* INAPPPurchaseViewController.swift */; };
+		4FC980FC21649C62005BBD15 /* localization+string.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC980FA21649C62005BBD15 /* localization+string.swift */; };
+		4FC980FD21649C62005BBD15 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4FC980FB21649C62005BBD15 /* Localizable.strings */; };
+		4FC9810021649C7E005BBD15 /* modelClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC980FF21649C7E005BBD15 /* modelClass.swift */; };
+		4FC9810321649C9F005BBD15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC9810221649C9F005BBD15 /* AppDelegate.swift */; };
+		4FC9810521649CCF005BBD15 /* GooglMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC9810421649CCF005BBD15 /* GooglMapViewController.swift */; };
+		4FC9810721649CDE005BBD15 /* GoogleMapManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC9810621649CDE005BBD15 /* GoogleMapManager.swift */; };
+		4FC9810921649CE8005BBD15 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC9810821649CE8005BBD15 /* LocationManager.swift */; };
+		4FC9810B21649CEF005BBD15 /* PermisionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC9810A21649CEF005BBD15 /* PermisionManager.swift */; };
+		4FC9810E21649D15005BBD15 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC9810D21649D15005BBD15 /* Utility.swift */; };
+		4FC9811021649D1C005BBD15 /* extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC9810F21649D1C005BBD15 /* extention.swift */; };
+		4FC9811221649D26005BBD15 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC9811121649D26005BBD15 /* Constant.swift */; };
+		4FC9811621649D41005BBD15 /* FirebaseChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC9811421649D41005BBD15 /* FirebaseChatViewController.swift */; };
+		4FC9811721649D41005BBD15 /* FirebaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC9811521649D41005BBD15 /* FirebaseViewController.swift */; };
+		4FC9811921649D4E005BBD15 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC9811821649D4E005BBD15 /* FirebaseManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +47,21 @@
 		4FAF7DC721282C2600D71730 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		4FC980F321648C18005BBD15 /* SQLLite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLLite.swift; sourceTree = "<group>"; };
 		4FC980F521648D24005BBD15 /* coreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coreData.swift; sourceTree = "<group>"; };
+		4FC980F721649C00005BBD15 /* INAPPPurchaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INAPPPurchaseViewController.swift; sourceTree = "<group>"; };
+		4FC980FA21649C62005BBD15 /* localization+string.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "localization+string.swift"; sourceTree = "<group>"; };
+		4FC980FB21649C62005BBD15 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		4FC980FF21649C7E005BBD15 /* modelClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = modelClass.swift; sourceTree = "<group>"; };
+		4FC9810221649C9F005BBD15 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FC9810421649CCF005BBD15 /* GooglMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GooglMapViewController.swift; sourceTree = "<group>"; };
+		4FC9810621649CDE005BBD15 /* GoogleMapManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleMapManager.swift; sourceTree = "<group>"; };
+		4FC9810821649CE8005BBD15 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		4FC9810A21649CEF005BBD15 /* PermisionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PermisionManager.swift; sourceTree = "<group>"; };
+		4FC9810D21649D15005BBD15 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		4FC9810F21649D1C005BBD15 /* extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extention.swift; sourceTree = "<group>"; };
+		4FC9811121649D26005BBD15 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		4FC9811421649D41005BBD15 /* FirebaseChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseChatViewController.swift; sourceTree = "<group>"; };
+		4FC9811521649D41005BBD15 /* FirebaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseViewController.swift; sourceTree = "<group>"; };
+		4FC9811821649D4E005BBD15 /* FirebaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
 		D6A7FC01B182B5D03649EC5B /* Pods_DemoProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1F7ECB6B647864F7CE392F5 /* Pods-DemoProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoProject/Pods-DemoProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,18 +108,73 @@
 		4FAF7DAF2128298E00D71730 /* DemoProject */ = {
 			isa = PBXGroup;
 			children = (
+				4FC9811321649D31005BBD15 /* Firebase */,
+				4FC9810C21649D0B005BBD15 /* Utility */,
+				4FC9810121649C8F005BBD15 /* GoogleMapIntegration */,
+				4FC980FE21649C76005BBD15 /* Model */,
+				4FC980F921649C4E005BBD15 /* Localization+String */,
 				4FAF7DB02128298E00D71730 /* AppDelegate.swift */,
 				4FAF7DC721282C2600D71730 /* APIManager.swift */,
 				4FAF7DC521282A7200D71730 /* Extension.swift */,
 				4FC980F321648C18005BBD15 /* SQLLite.swift */,
 				4FC980F521648D24005BBD15 /* coreData.swift */,
 				4FAF7DB22128298E00D71730 /* ViewController.swift */,
+				4FC980F721649C00005BBD15 /* INAPPPurchaseViewController.swift */,
 				4FAF7DB42128298E00D71730 /* Main.storyboard */,
 				4FAF7DBA2128298F00D71730 /* Assets.xcassets */,
 				4FAF7DBC2128298F00D71730 /* LaunchScreen.storyboard */,
 				4FAF7DBF2128298F00D71730 /* Info.plist */,
 			);
 			path = DemoProject;
+			sourceTree = "<group>";
+		};
+		4FC980F921649C4E005BBD15 /* Localization+String */ = {
+			isa = PBXGroup;
+			children = (
+				4FC980FB21649C62005BBD15 /* Localizable.strings */,
+				4FC980FA21649C62005BBD15 /* localization+string.swift */,
+			);
+			path = "Localization+String";
+			sourceTree = "<group>";
+		};
+		4FC980FE21649C76005BBD15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4FC980FF21649C7E005BBD15 /* modelClass.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4FC9810121649C8F005BBD15 /* GoogleMapIntegration */ = {
+			isa = PBXGroup;
+			children = (
+				4FC9810A21649CEF005BBD15 /* PermisionManager.swift */,
+				4FC9810821649CE8005BBD15 /* LocationManager.swift */,
+				4FC9810221649C9F005BBD15 /* AppDelegate.swift */,
+				4FC9810621649CDE005BBD15 /* GoogleMapManager.swift */,
+				4FC9810421649CCF005BBD15 /* GooglMapViewController.swift */,
+			);
+			path = GoogleMapIntegration;
+			sourceTree = "<group>";
+		};
+		4FC9810C21649D0B005BBD15 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				4FC9810D21649D15005BBD15 /* Utility.swift */,
+				4FC9811121649D26005BBD15 /* Constant.swift */,
+				4FC9810F21649D1C005BBD15 /* extention.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		4FC9811321649D31005BBD15 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				4FC9811821649D4E005BBD15 /* FirebaseManager.swift */,
+				4FC9811421649D41005BBD15 /* FirebaseChatViewController.swift */,
+				4FC9811521649D41005BBD15 /* FirebaseViewController.swift */,
+			);
+			path = Firebase;
 			sourceTree = "<group>";
 		};
 		B04EC77FAB8C0118BBC51506 /* Frameworks */ = {
@@ -161,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FAF7DBE2128298F00D71730 /* LaunchScreen.storyboard in Resources */,
+				4FC980FD21649C62005BBD15 /* Localizable.strings in Resources */,
 				4FAF7DBB2128298F00D71730 /* Assets.xcassets in Resources */,
 				4FAF7DB62128298E00D71730 /* Main.storyboard in Resources */,
 			);
@@ -223,11 +309,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FAF7DB32128298E00D71730 /* ViewController.swift in Sources */,
+				4FC9811221649D26005BBD15 /* Constant.swift in Sources */,
 				4FC980F421648C18005BBD15 /* SQLLite.swift in Sources */,
+				4FC980F821649C00005BBD15 /* INAPPPurchaseViewController.swift in Sources */,
+				4FC9810721649CDE005BBD15 /* GoogleMapManager.swift in Sources */,
+				4FC9810B21649CEF005BBD15 /* PermisionManager.swift in Sources */,
+				4FC9810E21649D15005BBD15 /* Utility.swift in Sources */,
 				4FC980F621648D24005BBD15 /* coreData.swift in Sources */,
+				4FC9811721649D41005BBD15 /* FirebaseViewController.swift in Sources */,
+				4FC9811621649D41005BBD15 /* FirebaseChatViewController.swift in Sources */,
 				4FAF7DC821282C2600D71730 /* APIManager.swift in Sources */,
+				4FC9811021649D1C005BBD15 /* extention.swift in Sources */,
+				4FC9811921649D4E005BBD15 /* FirebaseManager.swift in Sources */,
+				4FC9810021649C7E005BBD15 /* modelClass.swift in Sources */,
 				4FAF7DB12128298E00D71730 /* AppDelegate.swift in Sources */,
 				4FAF7DC621282A7300D71730 /* Extension.swift in Sources */,
+				4FC9810521649CCF005BBD15 /* GooglMapViewController.swift in Sources */,
+				4FC9810321649C9F005BBD15 /* AppDelegate.swift in Sources */,
+				4FC980FC21649C62005BBD15 /* localization+string.swift in Sources */,
+				4FC9810921649CE8005BBD15 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

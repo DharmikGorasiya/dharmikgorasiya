@@ -15,10 +15,6 @@ protocol myCustomeDelegate {
 class ViewController1: UIViewController, myCustomeDelegate {
     
     
-    
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -112,9 +108,65 @@ class ViewController3: UIViewController {
     }
     
 }
+////////
+//MARK:- Custom Delegate
 
+protocol recordChangeDelegate {
+    func selectedHobbie(str:String)
+}
 
+class DisplayVC : UIViewController,recordChangeDelegate
+{
+    func btnUpdateVC()
+    {
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "ChangeVC") as! ChangeVC
+        vc.delegate = self
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    func selectedHobbie(str:String)
+    {
+        print(str)
+    }
+}
 
+class ChangeVC:UIViewController
+{
+    var delegate:recordChangeDelegate?
+    
+    func btnChangeClick()
+    {
+        delegate?.selectedHobbie(str: "Hello")
+    }
+}
+
+//MARK:- BLock
+
+class DisplayVC : UIViewController
+{
+    func btnUpdateVC()
+    {
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "ChangeVC") as! ChangeVC
+        vc.blockName = {(str) in
+            print(str)
+        }
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+  
+}
+
+class ChangeVC:UIViewController
+{
+    var blockName:((String)->())?
+    
+    func btnChangeClick()
+    {
+        if(blockName != nil)
+        {
+            return blockName("Hello")
+        }
+    }
+}
+////////////
 class myApiCalling:NSObject
 {
     class func apiCalling(url:String,Parameter:NSMutableDictionary,isProgress:Bool = true, success:@escaping (NSDictionary) -> (), error:@escaping (String) -> ())

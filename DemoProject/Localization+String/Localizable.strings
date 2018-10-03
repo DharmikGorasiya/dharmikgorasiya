@@ -1,0 +1,389 @@
+/* 
+  Localization.strings
+  iChatMessaging
+
+  Created by Dharmik Gorasiya on 12/02/18.
+  Copyright © 2018 iChatMessaging. All rights reserved.
+*/
+
+//MARK: - Alert Message
+"ALERT_TITLE" = "Message";
+"ALERT_MSG_BLANK_PHONE" = "Please Enter Your Mobile Number";
+"ALERT_MSG_BLANK_COUNTRY_NAME" = "Please Select Country Name";
+
+"LBL_WELCOME_TO_ICHAT" = "Welcome to ichat";
+"LBL_VERIFY_OTP_MESSAGE" = "iChat will sent an OTP to verify your phone number.";
+"BTN_AGREEN_AND_CONTINUE" = "Agree and Continue";
+"phj-Qe-pnN.text" = "Welcome to ichat";
+
+//MARK:- Button
+"DpE-Gq-bvh.normalTitle" = "Agree and Continue";
+
+//MARK: - WelcomeVC
+
+"LBL_DESCRIPTION" = "Fast. Secure. Reliable.\n\nWe connect people, no matter who they are or where they are from. Make calls, send messages and much more - freely and securely. Join millions of people around the globe and enjoy the world's most comprehensive, secured communication experience.";
+//"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.";
+
+
+
+"LBL_Welcome_to_ichat" = "Welcome to ichat";
+"BTN_Agree_and_continue" = "Agree and Continue";
+
+//MARK: - ResetPasswordVC
+
+"LBL_ichat_will_sent_an_OTP" = "iChat will sent an OTP to verify your phone number.";
+"TXT_countryname_placeholder" = "Select country name";
+"TXT_phone_number_placeholder" = "Phone number";
+"BTN_check" = "Check";
+
+//MARK: - VerificationVC
+
+"LBL_verify" = "Verify";
+"LBL_you_will_receive_an_OTP_to_verify_your_account" = "You will recieve an OTP to verify your account";
+"BTN_submit" = "Submit";
+"BTN_reset_OTP" = "Reset OTP";
+"TXT_enter_OTP_placeholder" = "Enter otp";
+
+//MARK: - AddProfileDetailsVC
+
+"LBL_profile_title" = "Profile";
+"LBL_this_name_will_appear_on_your_profile" = "This name will appear on your profile";
+"TXT_profile_name_placeholder" = "Enter profile name";
+"TXT_about_yourself_placeholder" = "About yourself";
+"BTN_get_started" = "Get started";
+"STR_Please_enter_your_full_name" = "Please enter your full name";
+"ALERT_Contact_Permission" = "This app requires access to Contacts to proceed. Would you like to open settings and grant permission to contacts?";
+"BTN_Open_Settings" = "Open Settings";
+"BTN_AddProfile_Cancel" = "Cancel";
+"APDVC_STR_LOCATION_PERMISSION" = "Location Services access is restricted. In get user current city & country, please enable Location Services in the Settigs under Privacy, Location Service.";
+
+//MARK: - ConversationVC
+
+"LBL_chat_title" = "Chats";
+"LBL_serchbar_placeholder" = "Search for messages or users";
+"STR_Alert_are_you_sure_you_want_to_delete_chat_history" = "Are you sure you want to delete chat history ?";
+"ALERT_CVC_NO_RECENT_CHAT_AVAILABLE" = "No recent chats available";
+"ALERT_CVC_NO_FOUND_RESULT" = "No result found for";
+
+//MARK: - ContactsVC
+
+"LBL_contacts_title" = "Contacts";
+"TXT_people_searchbar_placeholder" = "Search people";
+"ALERT_CV_NO_CONTACT_AVAILABLE" = "No contact available";
+"ALERT_CV_NO_FOUND_RESULT" = "No result found for";
+"CONTACTVC_STR_TAP_TO_UNLOCK" = "Unblock to message";
+
+//MARK: - SettingsVC
+
+"LBL_settings_title" = "Settings";
+"STR_Edit_Profile" = "Edit Profile";
+"STR_Change_Password" = "Change Password";
+"STR_Blocked_Users" = "Blocked Users";
+"STR_Archived_Chats" = "Archived Chats";
+"STR_Cache_Settings" = "Cache Settings";
+"STR_Media_Settings" = "Media Settings";
+"STR_Chat_Backgrounds" = "Chat Backgrounds";
+"STR_Privacy_Policy" = "Privacy Policy";
+"STR_Terms_of_Service" = "Terms of Service";
+"STR_Logout" = "Logout";
+
+//MARK: - ChatViewController
+
+"TXT_message_placeholder" = "Message";
+"STR_sent" = "Sent";
+"STR_Read" = "Read";
+"SA_STR_READ_STATUS" = "Read";
+"SA_STR_DELIVERED_STATUS" = "Delivered";
+"SA_STR_SEEN_STATUS" = "Seen";
+
+"SA_STR_SENT_STATUS" = "Sent";
+"SA_STR_NOT_SENT_STATUS" = "Didn't send";
+"SA_STR_SENDING_STATUS" = "Sending";
+"SA_STR_UNKNOWN_USER" = "Unknown";
+"STR_Today" = "Today";
+"STR_Yesterday" = "Yesterday";
+"STR_Photo" = "📷 Photo";
+"STR_MSG_Video" = "🎥 Video";
+"STR_MSG_Audio" = "Voice Attachment";
+//
+"STR_Call_Notificaiton" = "Call notification";
+"STR_Notification_Message" = "Notification message";
+"STR_Contact_Request" = "Contact request";
+"STR_Location" = "Location";
+"LBL_Members" = "Members";
+
+"QM_STR_LOCATION" = "Location";
+"QM_STR_CANCEL" = "Cancel";
+"QM_STR_SEND" = "Send";
+
+"STR_CHATVC_Copy" = "Copy";
+"STR_CHATVC_Forward" = "Forward";
+"STR_CHATVC_Share" = "Share";
+"STR_CHATVC_Delete" = "Delete";
+
+"ALERT_CHATVC_DELETE_TITLE" = "Delete message";
+"ALERT_CHATVC_DELETE_QUESTIONMARK" = "?";
+"ALERT_CHATVC_DELETE_FROM" = "from";
+
+"CHATVC_ALERT_UNBLOCK_MESSAGE" = "unblock user ?";
+"CHATVC_BTN_OK" = "Ok";
+"CHATVC_STR_CANCEL" = "Cancel";
+"CHATVC_ALERT_UNBLOCK_TITLE" = "Unblock User";
+
+// *********** User Status ***********
+"QM_STR_ONLINE" = "Online";
+"QM_STR_OFFLINE" = "Offline";
+"QM_STR_LAST_SEEN" = "Last seen";
+"QM_STR_TIME_PREFIX" = "at";
+"QM_STR_UNKNOWN_USER" = "Unknown user";
+"SA_STR_TYPING" = "typing...";
+"SA_STR_TRY_AGAIN_MESSAGE" = "Try again";
+"SA_STR_DELETE_MESSAGE" = "Delete";
+"SA_STR_MESSAGE_FAILED_TO_SEND" = "Message failed to send";
+
+//MARK: - Group ConversationVC
+
+"LBL_groups_title" = "Groups";
+"TXT_group_searchbar_placeholder" = "Search group";
+"STR_members" = "members";
+"ALERT_GVC_NO_GRP_AVAILABLE" = "No group available";
+"ALERT_GVC_NO_RESULT_FOUND" = "No results found for";
+
+
+//MARK: - AudioVideoVC
+"LBL_Incoming_Call" = "Incoming Call";
+"LBL_Connecting" = "Connecting to calling";
+"LBL_Ringging" = "Ringging";
+
+//MARK: - EditProfileViewController
+"LBL_EditProfile_Title" = "Edit Profile";
+"LBL_Profile_Description" = "Change you profile picture & name";
+"LBL_Name" = "Name";
+"BTN_Edit" = "Edit";
+"BTN_Save" = "Save";
+"STR_Please_enter_your_name" = "Please enter your name";
+
+//MARK: - StatusVC
+"LBL_Current_Status" = "Current Status";
+"LBL_Select_Any_Status" = "Select Any Status";
+"LBL_Status_Title" = "Status";
+"ARR_Status_Available" = "Available";
+"ARR_Status_Busy" = "Busy";
+"ARR_Status_At_school" = "At school";
+"ARR_Status_At_the_movies" = "At the movies";
+"ARR_Status_At_Work" = "At work";
+"ARR_Status_Battery_about_to_die" = "Battery about to die";
+"ARR_Status_In_a_meeting" = "In a meeting";
+"ARR_Status_At_the_gym" = "At the gym";
+"ARR_Status_Sleeping" = "Sleeping";
+"ARR_Status_Urgent_calls_only" = "Urgent calls only";
+
+//MARK: - AddAboutVC
+"LBL_add_about_Title" = "Add About";
+"BTN_Save" = "Save";
+"ALERT_Require_Status" = "Please enter about status";
+
+//MARK: - BackgroundVC
+"LBL_chat_background_Title" = "Chat Backgrounds";
+"LBL_Photo_Library" = "Photo Library";
+
+//MARK: - BackroundPreviewVC
+"LBL_backgroundPreview_Title" = "Background Preview";
+"BTN_Set" = "Set";
+"BTN_Cancel" = "Cancel";
+
+//MARK: - AddGroupVC
+"LBL_NewGroup_Title" = "New Group";
+"LBL_Add_Participants" = "Add Participants";
+"BTN_Next" = "Next";
+"SEARCH_Search_People_Placeholder" = "Search People";
+"LBL_No_contect_Available" = "No Contact Available";
+"ALERT_ADVC_NO_RESULT_FOUND" = "No results found for";
+"STR_of" = "of";
+"STR_Selected" = "selected";
+"ALERT_Selected_min_two_user" = "Please select minimum two friends in group.";
+
+//MARK: - CreateGroupVC
+"LBL_Create_NewGroup_Title" = "New Group";
+"LBL_Add_Subject" = "Add Subject";
+"LBL_Provide_Group_Description" = "Provide a group subject and optional group icon";
+"lbl_Participants" = "Participants:";
+"TXT_Groupname_Placeholder" = "Type group subject here...";
+"BTN_Create" = "Create";
+"ALERT_Enter_Groupname" = "Please enter group name";
+
+//MARK: - GroupDetailVC
+"LBL_Group_Detail_Title" = "Group Detail";
+"LBL_GRP_Detail_Member" = "Members";
+"LBL_GRP_Detail_Leave_Group" = "Leave Group";
+"ALERT_Title_Edit_group_name" = "Edit Subject";
+"ALERT_TXT_Placeholder" = "Enter subject here...";
+"LBL_GRP_Detail_Add_Participant" = "Add Participant";
+"STR_GRP_Detail_Are_you_sure_leave" = "Do you really want to leave";
+"STR_GRP_Detail_Questionmark" = "?";
+"BTN_GRP_Detail_Leave" = "Leave";
+"GDVC_LBL_CLEAR_CHAT" = "Clear Chat";
+
+//MARK: - AddParticipantVC
+"BTN_ADD_PARTICIPANT_Add" = "Add";
+"ADDPVC_STR_TAP_TO_UNBLOCK" = "Tap to unblock";
+
+//MARK: - ProfileVC
+"PVC_LBL_PROFILE_TITLE" = "Profile";
+"PVC_LBL_BLOCK_USER" = "Block User";
+"PVC_LBL_UNBLOCK_USER" = "Unblock User";
+"PVC_LBL_STATUS" = "Status";
+"PVC_LBL_COUNTRY" = "Country";
+"PVC_LBL_LOCATION" = "Location";
+"PVC_LBL_SEND_MESSAGE" = "Send Message";
+"PVC_LBL_CLEAR_CHAT" = "Clear Chat";
+"PVC_ALERT_CLEAR_CHAT_MESSAGE" = "Are you sure you want to clear messages in this chat?";
+"PVC_BTN_CANCEL" = "Cancel";
+"PVC_BTN_CLEAR" = "Clear";
+"PVC_ALERT_UNBLOCK_MESSAGE" = "Are you sure you want to unblock user ?";
+"PVC_ALERT_BLOCK_MESSAGE" = "Are you sure you want to block user ?";
+"PVC_STR_QUESTIONMARK" = "?";
+"PVC_BTN_OK" = "Ok";
+"PVC_LBL_NO_BLOCK_USER_AVAILABLE" = "No block user available";
+"PVC_ALERT_BLOCK_TITLE" = "Block User";
+"PVC_ALERT_UNBLOCK_TITLE" = "Unblock User";
+"PVC_LBL_ADD_TO_CONTACT" = "Add to contact";
+
+//MARK: - CMSPagesVC
+"CMSVC_LBL_TITLE_PRIVACY_POLICY" = "Privacy Policy";
+"CMSVC_LBL_TITLE_TERMS_OF_SERVICE" = "Terms of Service";
+
+//MARK: - BlockUserVC
+"BUVC_LBL_HEADER_TITLE" = "Block Users";
+"BUVC_ALERT_UNBLOCK_TITLE" = "Unblock User";
+"BUVC_ALERT_UNBLOCK_MESSAGE" = "Are you sure you want to unblock";
+"BUVC_STR_QUESTIONMARK" = "?";
+"BUVC_BTN_OK" = "Ok";
+"BUVC_BTN_CANCEL" = "Cancel";
+"BUVC_LBL_NO_BLOCK_USER_AVAILABLE" = "No block user available";
+
+//MARK: - Extra String
+"STR_Camera" = "Camera";
+"STR_Picture" = "Picture";
+"STR_Video" = "Video";
+"STR_Location" = "Location";
+"STR_Gallery" = "Gallery";
+"STR_Remove_Profile" = "Remove Profile";
+"STR_Display_Profile" = "Display Profile";
+"STR_Cancel" = "Cancel";
+"STR_Delete" = "Delete";
+"STR_More" = "More";
+"STR_Archive" = "Archive";
+"STR_Mute" = "Mute";
+"STR_Status" = "Status";
+
+
+"SA_STR_OK" = "Ok";
+"SA_STR_CANCEL" = "Cancel";
+"SA_STR_LOADING" = "Loading";
+"SA_STR_LOGGED_IN" = "Logged in";
+"SA_STR_SENDING" = "Sending";
+"SA_STR_COMPLETED" = "Completed";
+"SA_STR_DELETE" = "Leave";
+"SA_STR_DELETED" = "Left";
+"SA_STR_DELETING" = "Leaving...";
+"SA_STR_WARNING" = "Warning";
+"SA_STR_BLOCK" = "Block";
+"SA_STR_UNBLOCK" = "Unblock";
+"SA_STR_LOGIN_AS" = "Login as";
+"SA_STR_LOGOUT" = "Logout";
+"SA_STR_LOGOUTING" = "Logout...";
+"SA_STR_TYPING" = "Typing...";
+"SA_STR_CONNECTING_TO_CHAT" = "Connecting to chat...";
+"SA_STR_CONNECTED" = "Connected";
+"SA_STR_DISCONNECTED" = "Disconnected";
+"SA_STR_RECONNECTED" = "Reconnected";
+"SA_STR_LOGGING_IN_AS" = "Logging in REST as ";
+"SA_STR_LOADING_DIALOG" = "Loading dialog";
+"SA_STR_LOADING_DIALOGS" = "Loading dialogs";
+"SA_STR_DONE" = "Done";
+"SA_STR_ADDED" = "added";
+"SA_STR_CREATE_NEW" = "created new dialog with: ";
+"SA_STR_CALL" = "Call";
+
+// chat dialog
+"SA_STR_MESSAGE_PLACEHOLDER" = "Message";
+"SA_STR_CANT_SEND_A_MESSAGE" = "Can't send a message";
+"SA_STR_LOADING_USERS" = "Loading users";
+"SA_STR_CANT_DOWNLOAD_USERS" = "Can't download users";
+"SA_STR_CANT_DOWNLOAD_DIALOGS" = "Can't download dialogs";
+"SA_STR_FAILED_LOAD_DIALOGS" = "Failed to load dialogs";
+"SA_STR_YOU_ARE_IN_THE_BLACKLIST" = "You are in the blacklist";
+"SA_STR_FORBIDDEN" = "forbidden";
+"SA_STR_LOADING_MESSAGES" = "Loading messages";
+"SA_STR_UPLOADING_ATTACHMENT" = "Uploading attachment";
+"SA_STR_ENTER_CHAT_NAME" = "Enter chat name";
+"STR_DIALOG_CREATED" = "Dialog created";
+"SA_STR_CHAT_SEND" = "Send";
+"SA_STR_LAST_ACTIVITY_DATE" = "last_activity_date";
+"SA_STR_ADD_OCCUPANTS" = "Add occupants";
+"SA_STR_CREATE" = "Create";
+"SA_STR_NEW_CHAT" = "New chat";
+"SA_STR_NEW_MESSAGE" = "New message";
+"SA_STR_USER_HAS_LEFT" = "has left dialog.";
+"SA_STR_CHAT_INFO" = "Chat info";
+
+// TableViewCell identifiers
+"SA_STR_CELL_USER" = "UserTableViewCellIdentifier";
+"SA_STR_CELL_DIALOG" = "dialogcell";
+
+// Segues
+"SA_STR_SEGUE_GO_TO_DIALOGS" = "goToDialogs";
+"SA_STR_SEGUE_GO_TO_CHAT" = "goToChat";
+"SA_STR_SEGUE_GO_TO_SELECT_OPPONENTS" = "goToSelectOpponents";
+
+// User table view cell model
+"SA_STR_PRIVATE" = "private";
+"SA_STR_GROUP" = "group";
+"SA_STR_PUBLIC_GROUP" = "public group";
+
+// Action sheet
+"SA_STR_ADDITIONAL_ACTIONS" = "Additional actions";
+"SA_STR_NOTE_YOU_WILL_NOT_RECEIVE_AMY_P2P_MESSAGES" = "Note that you will not receive any private message from this user";
+"SA_STR_NOTE_YOU_WILL_NOT_RECEIVE_AMY_GROUP_MESSAGES" = "Note that you will not receive any group chat message from this user";
+"SA_STR_DO_YOU_REALLY_WANT_TO_DELETE_SELECTED_DIALOG" = "Do you really want to leave selected dialog?";
+"SA_STR_UNBLOCK_USER_P2P_CHAT" = "Unblock user in 1-1 chat";
+"SA_STR_BLOCK_USER_P2P_CHAT" = "Block user in 1-1 chat";
+"SA_STR_UNBLOCK_USER_GROUP_CHATS" = "Unblock user in all group chats";
+"SA_STR_BLOCK_USER_GROUP_CHATS" = "Block user in all group chats";
+
+// Errors"SA_STR_ERROR_DELETING" = "Error leaving";
+"SA_STR_BAD_GATEWAY" = "Bad Gateway, please try again";
+"SA_STR_NETWORK_ERROR" = "Connection network error, please try again";
+"SA_STR_DID_NOT_CONNECT_ERROR" = "Did not connect with error:";
+"SA_STR_FAILED_TO_CONNECT_WITH_ERROR" = "Chat failed with error:";
+"SA_STR_CANNOT_CREATE_DIALOG" = "Can not create dialog";
+"SA_STR_MESSAGE_FAILED_TO_SEND" = "Message failed to send";
+"QM_STR_NO_PERMISSIONS_TO_MICROPHONE" = "The app doesn't have access to the microphone, please go to settings and enable it";
+"QM_STR_NO_PERMISSIONS_TO_CAMERA" = "The app doesn't have access to the camera, please go to settings and enable it";
+"QM_STR_MICROPHONE_ERROR" = "Microphone error";
+// Push notifications
+"SA_STR_PUSH_NOTIFICATION_DIALOG_ID" = "dialog_id";
+"SA_STR_PUSH_NOTIFICATION_MESSAGE" = "message";
+// *********** GROUP NOTIFICATIONS *****************
+"QM_STR_ADD_USERS_TO_EXIST_GROUP_CONVERSATION_TEXT" = "You added";
+"QM_STR_UPDATE_GROUP_NAME_TEXT" = "changed the subject name to";
+"QM_STR_UPDATE_GROUP_AVATAR_TEXT" = "changed this group's icon";
+"QM_STR_LEAVE_GROUP_CONVERSATION_TEXT" = " has left group chat.";
+"QM_STR_ADDED_YOU_TEXT" = "added you";
+"QM_STR_YOU_TEXT" = "You";
+"QM_STR_Added" = "added";
+// *********** CALL NOTIFICATIONS *****************
+"QM_STR_OUTGOING_CALL" = "Outgoing Call";
+"QM_STR_OUTGOING_VIDEO_CALL" = "Outgoing Video Call";
+
+"QM_STR_INCOMING_CALL" = "Incoming Call";
+"QM_STR_INCOMING_VIDEO_CALL" = "Incoming Video Call";
+
+"QM_STR_MISSED_CALL" = "Missed Call";
+"QM_STR_MISSED_VIDEO_CALL" = "Missed Video Call";
+
+"QM_STR_NO_ANSWER" = "No Answer";
+
+"QM_STR_GROUP_CALLING_IN" = "Calling in";
+
