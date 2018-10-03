@@ -11,11 +11,12 @@
 		4FAF7DB12128298E00D71730 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAF7DB02128298E00D71730 /* AppDelegate.swift */; };
 		4FAF7DB32128298E00D71730 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAF7DB22128298E00D71730 /* ViewController.swift */; };
 		4FAF7DB62128298E00D71730 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FAF7DB42128298E00D71730 /* Main.storyboard */; };
-		4FAF7DB92128298E00D71730 /* DemoProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4FAF7DB72128298E00D71730 /* DemoProject.xcdatamodeld */; };
 		4FAF7DBB2128298F00D71730 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FAF7DBA2128298F00D71730 /* Assets.xcassets */; };
 		4FAF7DBE2128298F00D71730 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FAF7DBC2128298F00D71730 /* LaunchScreen.storyboard */; };
 		4FAF7DC621282A7300D71730 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAF7DC521282A7200D71730 /* Extension.swift */; };
 		4FAF7DC821282C2600D71730 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAF7DC721282C2600D71730 /* APIManager.swift */; };
+		4FC980F421648C18005BBD15 /* SQLLite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC980F321648C18005BBD15 /* SQLLite.swift */; };
+		4FC980F621648D24005BBD15 /* coreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC980F521648D24005BBD15 /* coreData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,12 +25,13 @@
 		4FAF7DB02128298E00D71730 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FAF7DB22128298E00D71730 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4FAF7DB52128298E00D71730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4FAF7DB82128298E00D71730 /* DemoProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DemoProject.xcdatamodel; sourceTree = "<group>"; };
 		4FAF7DBA2128298F00D71730 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FAF7DBD2128298F00D71730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FAF7DBF2128298F00D71730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FAF7DC521282A7200D71730 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		4FAF7DC721282C2600D71730 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		4FC980F321648C18005BBD15 /* SQLLite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLLite.swift; sourceTree = "<group>"; };
+		4FC980F521648D24005BBD15 /* coreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coreData.swift; sourceTree = "<group>"; };
 		D6A7FC01B182B5D03649EC5B /* Pods_DemoProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1F7ECB6B647864F7CE392F5 /* Pods-DemoProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoProject/Pods-DemoProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,12 +81,13 @@
 				4FAF7DB02128298E00D71730 /* AppDelegate.swift */,
 				4FAF7DC721282C2600D71730 /* APIManager.swift */,
 				4FAF7DC521282A7200D71730 /* Extension.swift */,
+				4FC980F321648C18005BBD15 /* SQLLite.swift */,
+				4FC980F521648D24005BBD15 /* coreData.swift */,
 				4FAF7DB22128298E00D71730 /* ViewController.swift */,
 				4FAF7DB42128298E00D71730 /* Main.storyboard */,
 				4FAF7DBA2128298F00D71730 /* Assets.xcassets */,
 				4FAF7DBC2128298F00D71730 /* LaunchScreen.storyboard */,
 				4FAF7DBF2128298F00D71730 /* Info.plist */,
-				4FAF7DB72128298E00D71730 /* DemoProject.xcdatamodeld */,
 			);
 			path = DemoProject;
 			sourceTree = "<group>";
@@ -171,15 +174,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-DemoProject-checkManifestLockResult.txt",
 			);
@@ -193,8 +192,6 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-DemoProject/Pods-DemoProject-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
@@ -205,8 +202,6 @@
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
@@ -228,7 +223,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FAF7DB32128298E00D71730 /* ViewController.swift in Sources */,
-				4FAF7DB92128298E00D71730 /* DemoProject.xcdatamodeld in Sources */,
+				4FC980F421648C18005BBD15 /* SQLLite.swift in Sources */,
+				4FC980F621648D24005BBD15 /* coreData.swift in Sources */,
 				4FAF7DC821282C2600D71730 /* APIManager.swift in Sources */,
 				4FAF7DB12128298E00D71730 /* AppDelegate.swift in Sources */,
 				4FAF7DC621282A7300D71730 /* Extension.swift in Sources */,
@@ -435,19 +431,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		4FAF7DB72128298E00D71730 /* DemoProject.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				4FAF7DB82128298E00D71730 /* DemoProject.xcdatamodel */,
-			);
-			currentVersion = 4FAF7DB82128298E00D71730 /* DemoProject.xcdatamodel */;
-			path = DemoProject.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 4FAF7DA52128298E00D71730 /* Project object */;
 }
